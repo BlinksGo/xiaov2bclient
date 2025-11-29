@@ -6,20 +6,27 @@ app_name: "春秋VPN"
 
 # 进程名称 (仅限 Windows/Linux，生成的 .exe 文件名)
 # 注意：修改此项后，建议运行 flutter clean
-process_name: "chunqiu_vpn"
+process_name: "cchunqiu"
+
+# 包名 (Android Application ID / iOS Bundle ID)
+# 例如: com.example.app
+package_name: "com.chunqiu.app"
 
 # Logo 配置
-# 请将您的 Logo 图片放在 assets/images/ 目录下 (如果没有该目录请新建)
-# 建议使用 1024x1024 的 PNG 图片作为源文件
+# 请将您的 Logo 图片放在 assets/images/logo/ 目录下
 logo:
-  # 源图片路径
-  image_path: "assets/images/logo.png"
+  # 通用 Logo (Android, Windows, iOS)
+  image_path: "assets/images/logo/logo.png"
+  
+  # macOS 专用 Logo (可选，如果不填则使用通用 Logo)
+  # macOS 图标通常需要圆角或不同的边距
+  macos_image_path: "assets/images/logo/logo_mac.png"
   
   # 是否生成 Android 图标
   android: true
   
-  # 是否生成 iOS 图标
-  ios: true
+  # 是否生成 iOS 图标 (暂时不需要)
+  ios: false
   
   # (可选) 自定义 Android 图标文件名，默认是 ic_launcher
   # android_icon_name: "ic_launcher" 

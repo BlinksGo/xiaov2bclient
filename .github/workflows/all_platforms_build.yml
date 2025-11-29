@@ -30,7 +30,7 @@ jobs:
         run: flutter pub get
 
       - name: Apply Build Configuration (Name, Logo)
-        run: dart tool/apply_config.dart
+        run: dart run tool/apply_config.dart
 
       - name: Build APK
         run: flutter build apk --release
@@ -58,7 +58,7 @@ jobs:
         run: flutter pub get
 
       - name: Apply Build Configuration (Name, Logo, Process Name)
-        run: dart tool/apply_config.dart
+        run: dart run tool/apply_config.dart
 
       - name: Build Windows
         run: flutter build windows --release
@@ -89,7 +89,7 @@ jobs:
         run: flutter pub get
 
       - name: Apply Build Configuration (Name, Logo)
-        run: dart tool/apply_config.dart
+        run: dart run tool/apply_config.dart
 
       - name: Build macOS
         run: flutter build macos --release
