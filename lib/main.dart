@@ -19,7 +19,7 @@ void main() async {
       backgroundColor: Colors.transparent,
       skipTaskbar: false,
       titleBarStyle: TitleBarStyle.hidden,
-      title: '春秋VPN',
+      title: '学习强国',
     );
 
     windowManager.waitUntilReadyToShow(windowOptions, () async {
@@ -46,7 +46,7 @@ class VPNApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: '春秋VPN',
+      title: '学习强国',
       debugShowCheckedModeBanner: false,
       theme: AppTheme.darkTheme,
       builder: (context, child) {

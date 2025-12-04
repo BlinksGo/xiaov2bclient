@@ -15,8 +15,8 @@ class ConfigService {
   // Placeholder for OSS URLs. The user will provide these before compilation.
   // We support multiple URLs for polling.
   final List<String> _ossUrls = [
-    'https://baota.sbs/xuexi.txt', 
-    'https://baota.sbs/xuexi2.txt'
+    'https://raw.githubusercontent.com/sunyuchentrx/APIOSS/refs/heads/main/api.txt', 
+    'https://raw.githubusercontent.com/sunyuchentrx/APIOSS/refs/heads/main/api.txt'
   ];
 
   AppConfig? _appConfig;

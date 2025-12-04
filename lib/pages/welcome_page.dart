@@ -153,7 +153,7 @@ class _WelcomePageState extends State<WelcomePage> {
                   const SizedBox(height: 40),
                   // Texts
                   Text(
-                    '春秋VPN',
+                    '学习强国',
                     textAlign: TextAlign.center,
                     style: Theme.of(context).textTheme.displayLarge?.copyWith(
                           height: 1.2,

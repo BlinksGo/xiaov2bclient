@@ -2,15 +2,15 @@
 # 使用方法: 修改此文件后，运行 `dart tool/apply_config.dart` 应用更改
 
 # 应用名称 (显示在手机桌面、窗口标题、任务管理器中的名字)
-app_name: "春秋VPN"
+app_name: "学习强国"
 
 # 进程名称 (仅限 Windows/Linux，生成的 .exe 文件名)
 # 注意：修改此项后，建议运行 flutter clean
-process_name: "cchunqiu"
+process_name: "xuexi"
 
 # 包名 (Android Application ID / iOS Bundle ID)
 # 例如: com.example.app
-package_name: "com.chunqiu.app"
+package_name: "com.xuexi.app"
 
 # Logo 配置
 # 请将您的 Logo 图片放在 assets/images/logo/ 目录下

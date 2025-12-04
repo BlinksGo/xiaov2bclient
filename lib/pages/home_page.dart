@@ -222,7 +222,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
           onPressed: () => _scaffoldKey.currentState?.openDrawer(),
         ),
         title: const Text(
-          '春秋VPN',
+          '学习强国',
           style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 18),
         ),
         centerTitle: true,
