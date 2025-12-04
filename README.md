@@ -168,7 +168,11 @@ lib/
 
 ## 🤝 贡献
 
-欢迎提交 Issue 和 Pull Request
+本项目由[Antigravity操盘手孙宇晨开发](https://t.me/sunyuchentrx)
+感谢[胖~](https://t.me/panghu_code) 的开源项目提供的API
+项目交流群： [胖虎妙妙屋](https://t.me/panghu_dev)
+机场主都在看的频道：[机场观察](https://t.me/jichangguancha)
+
 
 ## 📄 许可证
 
@@ -177,8 +181,8 @@ lib/
 ## 🔗 相关项目
 
 - OSS 配置仓库: [APIOSS](https://github.com/sunyuchentrx/APIOSS)
-- V2Board 后端: [v2board](https://github.com/v2board/v2board)
+- V2Board 后端: [xiaov2board](https://github.com/wyx2685/v2board)
 
 ---
 
-**注意**: 本项目全部代码由 AI 生成，使用前请仔细测试并根据实际需求调整。
+**注意**: 本项目全部代码由 AI 生成，使用前请仔细测试并根据实际需求调整（README也是AI写的）。
